@@ -1,0 +1,39 @@
+
+R version 3.5.1 (2018-07-02) -- "Feather Spray"
+Copyright (C) 2018 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> source("https://www.stat.washington.edu/tsr/s566/labs/y0y1polytopenew-rgl-col.R")
+> source("check-iv-z-arbitrary.R")
+> library(MCMCpack)
+Loading required package: coda
+Loading required package: MASS
+##
+## Markov Chain Monte Carlo Package (MCMCpack)
+## Copyright (C) 2003-2018 Andrew D. Martin, Kevin M. Quinn, and Jong Hee Park
+##
+## Support provided by the U.S. National Science Foundation
+## (Grants SES-0350646 and SES-0350613)
+##
+> 
+> load(file = "bayesian-simulation/true_ace_and_ace-bound.Rdata")
+Error in readChar(con, 5L, useBytes = TRUE) : cannot open the connection
+Calls: load -> readChar
+In addition: Warning message:
+In readChar(con, 5L, useBytes = TRUE) :
+  cannot open compressed file 'bayesian-simulation/true_ace_and_ace-bound.Rdata', probable reason 'No such file or directory'
+Execution halted
